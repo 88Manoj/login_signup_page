@@ -1,0 +1,311 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+   
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 130vh;
+}
+
+header {
+    background-color: transparent;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    height: 40px;
+    display: flex;
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+
+footer {
+    background-color: #0f1111;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    position: absolute;
+    bottom: -240px;
+    width: 100%;
+}
+
+.container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    
+    align-items: center;
+    background: url("/imges/nhuman.webp") no-repeat;
+    background-position:center;
+    background-size: cover;
+    
+    
+    
+}
+
+.login-container {
+    top :130px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: -8px -5px 30px rgb(45, 41, 41),8px 5px 15px rgb(0,0,0.2);
+    width: 300px;
+    background: transparent;
+    position: fixed;
+}
+
+.login-container h2 {
+    margin: 0 0 15px;
+    text-align: center;
+    color: orange;
+}
+
+.login-container label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.login-container input[type="text"],
+.login-container input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.login-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.login-container button:hover {
+    background-color: orange;
+}
+
+.login-container .signup-link {
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+}
+
+header {
+    background-color: transparent;
+    border-radius: 25px;
+    width: 97%;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+header .nav1{
+   
+    margin: 0px 15px 0px 10px;
+}
+
+.nav1 a {
+    color: white;
+    margin: 0 50px 0 40px;
+    font-size: 20px;
+    text-decoration: none;
+    font-size: 25px;
+   
+}
+
+#h1 {
+    font-size: 45px;
+    color: orange;
+}
+
+.nav2 a {
+    color: white;
+    margin-left: 10px;
+    text-decoration: none;
+    font-size: 18px;
+    padding-right: 15px;
+}
+
+
+.nav1 a:hover{
+    color: aqua;
+    
+}
+
+header:hover{
+    box-shadow: -8px -5px 15px rgb(4, 148, 238),8px 5px 15px rgb(192, 213, 215);
+}
+
+.login-container,form a{
+    font-size: 20px;
+    text-decoration: none;
+    color:white;
+}
+
+form{
+    color: black;
+}
+
+
+
+big{
+    display: flex;
+    margin-top: 200px;
+    align-items: center;
+    justify-content: center;
+    font-size: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+.navigation,a{
+    margin-right:35px;
+    text-decoration: none;
+    color: white;
+}
+.n2{
+    position:relative;
+    left: 10px;
+}
+
+.n2 a{ 
+    border: 2px solid white;
+    text-decoration: none;
+     margin-left:100px; 
+    position:relative;
+    bottom: 20px;
+    right: 0;
+    line-height: 80px;
+   align-items: center;
+   justify-content: center;
+   
+}
+
+#h1{
+    color: orange;
+    font-size: 50px;
+    margin-left: 10px;
+    position: relative;
+    bottom: 17px;
+}
+.navigation{
+    margin-left: 30px;
+    font-size: 25px;
+    margin-top: 30px;
+    position: relative;
+    bottom: 17px;
+}
+
+.s{
+    color: green; 
+   
+}
+ 
+.nav1 .navigation,a
+{
+    border: 2px solid yellow;
+    margin-left: 25px;
+}
+ */

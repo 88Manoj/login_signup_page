@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./fproject.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <header>
+        <h1 id="h1">Student Portal</h1>
+        <div class="nav1">
+            <nav class="navigation">
+                <a href="Home.html">Home</a>
+                <a href="About.html">About</a>
+                <a href="Services.html">Services</a>
+                <a href="Contact.html">Contact</a>
+            </nav>
+        </div>
+        <div class="nav2">
+            <nav class="n2">
+                <a href="signup.html" class="s">sign up </a>
+                <a href="fproject.html" class="s">login</a>
+            </nav>
+        </div>
+
+
+    </header>
+    <div class="container">
+        <div class="login-container">
+            <h2>Student Login</h2>
+            <form action="/submit-login" method="post">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" required>
+
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+
+                <button type="submit">Login</button>
+                <a href="signup.html" class="signup-link">Don't have an account? Sign up</a>
+            </form>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; Student Portal. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>
